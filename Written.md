@@ -6,6 +6,7 @@ Keyadapter is an interface. Keylistener is a class.
 
 ## Exercise \#2
 What is the difference between a ```MouseListener``` and a ```MouseMotionListener```.
+A '''MouseListener''' is an action listener that listens for mouse clicks or other buttons on the mouse, but does not monitor the cursor's position. A '''MouseMotionListener''' only tracks the cursor's position, and also if it is being dragged or just moved.
 
 ## Exercise \#3
 Given a ```MouseEvent```, Java has the ```getButton``` and ```getModifiersEx``` methods for determining which mouse buttons are pressed. Are both methods really needed, that is, do they differ in any way?
